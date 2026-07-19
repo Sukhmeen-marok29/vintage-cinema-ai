@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+.vscode/
+dataset/train/
+temp_input.jpg
+*.pth
