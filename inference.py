@@ -59,7 +59,7 @@ def run_style_transfer(content_img_path, style_img_path, steps=300):
     content_weight = 1e4  # Keeps structural features intact
     style_weight = 1e2    # Blends color patterns and grains
     
-    for ii in range(1, steps + 1):
+    for i in range(1, steps + 1):
         target_features = extractor(target)
         
         # Compute Content Loss (comparing middle block layers)
