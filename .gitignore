@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 __pycache__/
 .pytest_cache/
 .vscode/
 dataset/train/
 temp_input.jpg
+=======
+__pycache__/
+.pytest_cache/
+.vscode/
+dataset/train/
+temp_input.jpg
+>>>>>>> 339ed7d5763473baf72b6cc4dddd1b914a29cf5a
 *.pth
