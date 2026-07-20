@@ -103,5 +103,5 @@ def process_pipeline(input_image_path, classes=['70s_technicolor', '90s_filmic',
     style_reference_path = f"dataset/styles/{predicted_era}_style.jpg"
     
     # 3. Generate new stylized output array
-    stylized_output = run_style_transfer(input_image_path, style_reference_path, steps=150)
+    stylized_output = run_style_transfer(input_image_path, style_reference_path, steps=15)
     return predicted_era, stylized_output
